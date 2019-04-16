@@ -2,7 +2,10 @@
   "name": "jseventqueue",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/event-queue.js",
+  "files": [
+    "src/event-queue.js"
+  ],
   "scripts": {
     "esdoc": "esdoc -c ./esdoc.json",
     "eslint-fix": "eslint --config=./config/eslint.config.json --fix src/**/*.js test/**/*.js",
