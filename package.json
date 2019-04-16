@@ -1,0 +1,42 @@
+{
+  "name": "jseventqueue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "esdoc": "esdoc -c ./esdoc.json",
+    "eslint-fix": "eslint --config=./config/eslint.config.json --fix src/**/*.js test/**/*.js",
+    "eslint-watch": "esw --config=./config/eslint.config.json -w --fix src/**/*.js test/**/*.js",
+    "test": "nyc --reporter=html --reporter=text --report-dir=./build/coverage --check-coverage --lines 100 --functions 100 --branches 100 mocha --reporter mocha-multi-reporters --reporter-options configFile=./config/mocha-reporters.json test/*.spec.js",
+    "test-watch": "mocha --reporter spec -w --recursive test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kirusi/jseventqueue.git"
+  },
+  "keywords": [
+    "event",
+    "queue",
+    "async"
+  ],
+  "author": "Kirusi Msafiri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kirusi/jseventqueue/issues"
+  },
+  "homepage": "https://github.com/Kirusi/jseventqueue#readme",
+  "devDependencies": {
+    "esdoc": "^1.0.4",
+    "esdoc-node": "^1.0.2",
+    "esdoc-standard-plugin": "^1.0.0",
+    "eslint": "^5.16.0",
+    "eslint-watch": "^5.0.1",
+    "mocha": "^4.1.0",
+    "mocha-junit-reporter": "^1.18.0",
+    "mocha-lcov-reporter": "^1.3.0",
+    "mocha-multi-reporters": "^1.1.7",
+    "nyc": "^13.3.0",
+    "should": "^13.1.3"
+  },
+  "dependencies": {}
+}
