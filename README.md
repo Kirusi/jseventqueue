@@ -6,8 +6,11 @@
 
 A JavaScript (ES6) library for serializing event processing. It is intended to be used by multiple producers and a single consumer. Event processing is using ayns/await mechanism, which helps to process events one-at-a-time.
 
+[API reference](https://doc.esdoc.org/github.com/Kirusi/jseventqueue/)
+
 Reading from queue using `for await` loop:
 ```js
+const EventQueue = require('jseventqueue');
 let queue = new EventQueue();
 setTimeout(() => {
     queue.send(0);
@@ -24,6 +27,7 @@ for await (let data of queue) {
 ```
 If for some reason one can't use `for await` loop then a similar loop can be implemented using `while`:
 ```js
+const EventQueue = require('jseventqueue');
 let queue = new EventQueue();
 setTimeout(() => {
     queue.send(0);
@@ -44,6 +48,7 @@ while ((data = await queue.receive()) !== queue.end) {
 
 Ad-hoc reading and writing to the queue:
 ```js
+const EventQueue = require('jseventqueue');
 let queue = new EventQueue();
 setTimeout(() => {
     queue.send('message 1');

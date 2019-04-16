@@ -1,0 +1,12 @@
+{
+  "coverage": "100%",
+  "expectCount": 22,
+  "actualCount": 22,
+  "files": {
+    "src/event-queue.js": {
+      "expectCount": 22,
+      "actualCount": 22,
+      "undocumentLines": []
+    }
+  }
+}

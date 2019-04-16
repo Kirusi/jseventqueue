@@ -1,0 +1,1016 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/event-queue.js",
+    "content": "'use strict';\r\n\r\n/**\r\n * A wrapper class. It is used to raise errors and signal interruptions to normal iteration flow.\r\n */\r\nclass Signal {\r\n    /**\r\n     * Constructor\r\n     * @param {Error} err - an error to be trhown during iteration\r\n     */\r\n    constructor(err) {\r\n        /** an error object to be held */\r\n        this.err = err;\r\n    }\r\n\r\n    /**\r\n     * Accessor to wrapped Error instance\r\n     */\r\n    get error() {\r\n        return this.err;\r\n    }\r\n}\r\n\r\n/**\r\n *  Class implements JS asyncIterator protocol to be used in `for-await-of loop`\r\n */\r\nclass Iterator {\r\n    /**\r\n     * Constructor\r\n     * @param {EventQueue} queue\r\n     */\r\n    constructor(queue) {\r\n        /** Reference to queue object */\r\n        this.queue = queue;\r\n    }\r\n\r\n    /**\r\n     * returns the result with two optional data members: `value` must be returned if there is more data expected.\r\n     * `done` must be set to true when iteration is finished, in this case `value` is ignored\r\n     */\r\n    async next() {\r\n        let data = await this.queue.receive();\r\n        if (this.queue.isSignal(data)) {\r\n            throw data.error;\r\n        }\r\n        let result = {\r\n            value: data,\r\n            done: (data === this.queue.end)\r\n        };\r\n        return result;\r\n    }\r\n\r\n    /**\r\n     * Support for `for-await-of loop` using iterator object\r\n     */\r\n    [Symbol.asyncIterator]() {\r\n        return this.queue[Symbol.asyncIterator]();\r\n    }\r\n}\r\n\r\n/**\r\n * Event queue with support for `async-await` reading by a single consumer\r\n */\r\nclass EventQueue {\r\n\r\n    /**\r\n     * Default constructor\r\n     */\r\n    constructor() {\r\n        /** @private array of messages */\r\n        this.queue = [];\r\n        /** @private flag whether the queue is closed */\r\n        this.isDown = false;\r\n        /** @private special object used to mark the last message */\r\n        this.endMarker = {id: 'Queue is terminated'}; // special object\r\n    }\r\n\r\n    /**\r\n     * Getter for the end marker. This object is sent when queue is shutdown\r\n     */\r\n    get end() {\r\n        return this.endMarker;\r\n    }\r\n\r\n    /**\r\n     * Async method that can be waited on to receive the next message.\r\n     * At most one consumer at a time is expected to be waiting.\r\n     * The method throws an exception after queue was shut down and all pendingmessages were delivered.\r\n     */\r\n    async receive() {\r\n        if (this.queue.length > 0) {\r\n            let val = this.queue.shift();\r\n            return Promise.resolve(val);\r\n        }\r\n        if (this.resolver) {\r\n            throw new Error('Another block of code is already waiting to receive data from this queue.');\r\n        }\r\n        if (this.isDown) {\r\n            throw new Error('Can\\'t read from queue. The queue was shutdown.');\r\n        }\r\n        return new Promise((resolver) => {\r\n            /**\r\n             * @private callback to use when the next value is received.\r\n             */\r\n            this.resolver = resolver;\r\n        });\r\n    }\r\n\r\n    /**\r\n     * Sends a message to a waiting consumer, or stores it in-memory to be delivered later.\r\n     * Once the queue is shut down, no more messages are accepted for delivery.\r\n     * Pending messages will be delivered to a consumer.\r\n     * @param {*} val - value to be delivered\r\n     */\r\n    send(val) {\r\n        if (!this.isDown) {\r\n            if (this.resolver) {\r\n                this.resolver(val);\r\n                this.resolver = undefined;\r\n            }\r\n            else {\r\n                this.queue.push(val);\r\n            }\r\n        }\r\n        else {\r\n            throw new Error('Can\\'t send a message. The queue was shutdown.');\r\n        }\r\n    }\r\n\r\n    /**\r\n     * Closes queue from accepting more messages for delivery\r\n     */\r\n    shutdown() {\r\n        this.send(this.endMarker);\r\n        this.isDown = true;\r\n    }\r\n\r\n    /**\r\n     * Send a message containing an Error object. Iterator will throw an exception when processing this object\r\n     * @param {Error} err - an error to be thrown\r\n     *\r\n     * @example\r\n     * // Reading from queue using `for await` loop:\r\n     * let queue = new EventQueue();\r\n     * setTimeout(() => {\r\n     *     queue.send(0);\r\n     *     queue.send(1);\r\n     *     queue.send(2);\r\n     *     queue.raiseSignal(new Error('Processing failed'));\r\n     *     queue.send(3);\r\n     *     queue.shutdown();\r\n     * }, 15);\r\n     * let results = [];\r\n     * try {\r\n     *     for await (let data of queue) {\r\n     *         results.push(data);\r\n     *     }\r\n     * }\r\n     * catch(err) {\r\n     *     // err.message is 'Processing failed'\r\n     * }\r\n     * // results contain [0, 1, 2]\r\n     * @example\r\n     * // If for some reason one can't use `for await` loop then a similar loop can be implemented using `while`:\r\n     * let queue = new EventQueue();\r\n     * setTimeout(() => {\r\n     *     queue.send(0);\r\n     *     queue.send(1);\r\n     *     queue.send(2);\r\n     *     queue.raiseSignal(new Error('Processing failed'));\r\n     *     queue.send(3);\r\n     *     queue.shutdown();\r\n     * }, 15);\r\n     * let results = [];\r\n     * let data;\r\n     * // while loop checks whether queue was shutdown by comparing returned value\r\n     * // to a special data member of the queue object. It also checks for signals and throws errors\r\n     * try {\r\n     *     while ((data = await queue.receive()) !== queue.end) {\r\n     *         if (queue.isSignal(res)) {\r\n     *             throw res.error;\r\n     *         }\r\n     *         results.push(data);\r\n     *     }\r\n     * }\r\n     * finally {\r\n     * }\r\n     * // results contain [0, 1, 2, 3]\r\n     */\r\n    raiseSignal(err) {\r\n        if (!(err instanceof Error)) {\r\n            throw new Error('Signal can be raised only by using instances of an Error class');\r\n        }\r\n        this.send(new Signal(err));\r\n    }\r\n\r\n    /**\r\n     * Checks whether an object was created by raiseSginal method.\r\n     * @param {*} signal\r\n     */\r\n    isSignal(signal) {\r\n        let result = (signal instanceof Signal);\r\n        return result;\r\n    }\r\n\r\n    /**\r\n     * Support for `for-await-of loop`\r\n     */\r\n    [Symbol.asyncIterator]() {\r\n        return new Iterator(this);\r\n    }\r\n}\r\n\r\nmodule.exports = EventQueue;\r\n",
+    "static": true,
+    "longname": "D:/Personal/Projects/jseventqueue/src/event-queue.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Signal",
+    "memberof": "src/event-queue.js",
+    "static": true,
+    "longname": "src/event-queue.js~Signal",
+    "access": "public",
+    "export": false,
+    "importPath": "jseventqueue",
+    "importStyle": null,
+    "description": "A wrapper class. It is used to raise errors and signal interruptions to normal iteration flow.",
+    "lineNumber": 6,
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/event-queue.js~Signal",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~Signal#constructor",
+    "access": "public",
+    "description": "Constructor",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Error"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "err",
+        "description": "an error to be trhown during iteration"
+      }
+    ]
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "err",
+    "memberof": "src/event-queue.js~Signal",
+    "static": false,
+    "longname": "src/event-queue.js~Signal#err",
+    "access": "public",
+    "description": "an error object to be held",
+    "lineNumber": 13,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "get",
+    "name": "error",
+    "memberof": "src/event-queue.js~Signal",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~Signal#error",
+    "access": "public",
+    "description": "Accessor to wrapped Error instance",
+    "lineNumber": 19,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "class",
+    "name": "Iterator",
+    "memberof": "src/event-queue.js",
+    "static": true,
+    "longname": "src/event-queue.js~Iterator",
+    "access": "public",
+    "export": false,
+    "importPath": "jseventqueue",
+    "importStyle": null,
+    "description": " Class implements JS asyncIterator protocol to be used in `for-await-of loop`",
+    "lineNumber": 27,
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/event-queue.js~Iterator",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~Iterator#constructor",
+    "access": "public",
+    "description": "Constructor",
+    "lineNumber": 32,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "EventQueue"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "queue",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 55,
+    "kind": "member",
+    "name": "queue",
+    "memberof": "src/event-queue.js~Iterator",
+    "static": false,
+    "longname": "src/event-queue.js~Iterator#queue",
+    "access": "public",
+    "description": "Reference to queue object",
+    "lineNumber": 34,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "method",
+    "name": "next",
+    "memberof": "src/event-queue.js~Iterator",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/event-queue.js~Iterator#next",
+    "access": "public",
+    "description": "returns the result with two optional data members: `value` must be returned if there is more data expected.\n`done` must be set to true when iteration is finished, in this case `value` is ignored",
+    "lineNumber": 41,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "method",
+    "name": "[Symbol.asyncIterator]",
+    "memberof": "src/event-queue.js~Iterator",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~Iterator#[Symbol.asyncIterator]",
+    "access": "public",
+    "description": "Support for `for-await-of loop` using iterator object",
+    "lineNumber": 56,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "class",
+    "name": "EventQueue",
+    "memberof": "src/event-queue.js",
+    "static": true,
+    "longname": "src/event-queue.js~EventQueue",
+    "access": "public",
+    "export": true,
+    "importPath": "jseventqueue",
+    "importStyle": "EventQueue",
+    "description": "Event queue with support for `async-await` reading by a single consumer",
+    "lineNumber": 64,
+    "interface": false
+  },
+  {
+    "__docId__": 59,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/event-queue.js~EventQueue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#constructor",
+    "access": "public",
+    "description": "Default constructor",
+    "lineNumber": 69
+  },
+  {
+    "__docId__": 60,
+    "kind": "member",
+    "name": "queue",
+    "memberof": "src/event-queue.js~EventQueue",
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#queue",
+    "access": "private",
+    "description": null,
+    "lineNumber": 71,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "member",
+    "name": "isDown",
+    "memberof": "src/event-queue.js~EventQueue",
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#isDown",
+    "access": "private",
+    "description": null,
+    "lineNumber": 73,
+    "ignore": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "member",
+    "name": "endMarker",
+    "memberof": "src/event-queue.js~EventQueue",
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#endMarker",
+    "access": "private",
+    "description": null,
+    "lineNumber": 75,
+    "ignore": true,
+    "type": {
+      "types": [
+        "{\"id\": string}"
+      ]
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "get",
+    "name": "end",
+    "memberof": "src/event-queue.js~EventQueue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#end",
+    "access": "public",
+    "description": "Getter for the end marker. This object is sent when queue is shutdown",
+    "lineNumber": 81,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "receive",
+    "memberof": "src/event-queue.js~EventQueue",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#receive",
+    "access": "public",
+    "description": "Async method that can be waited on to receive the next message.\nAt most one consumer at a time is expected to be waiting.\nThe method throws an exception after queue was shut down and all pendingmessages were delivered.",
+    "lineNumber": 90,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "member",
+    "name": "resolver",
+    "memberof": "src/event-queue.js~EventQueue",
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#resolver",
+    "access": "private",
+    "description": "",
+    "lineNumber": 105,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "name": "send",
+    "memberof": "src/event-queue.js~EventQueue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#send",
+    "access": "public",
+    "description": "Sends a message to a waiting consumer, or stores it in-memory to be delivered later.\nOnce the queue is shut down, no more messages are accepted for delivery.\nPending messages will be delivered to a consumer.",
+    "lineNumber": 115,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "val",
+        "description": "value to be delivered"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "name": "shutdown",
+    "memberof": "src/event-queue.js~EventQueue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#shutdown",
+    "access": "public",
+    "description": "Closes queue from accepting more messages for delivery",
+    "lineNumber": 133,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 70,
+    "kind": "method",
+    "name": "raiseSignal",
+    "memberof": "src/event-queue.js~EventQueue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#raiseSignal",
+    "access": "public",
+    "description": "Send a message containing an Error object. Iterator will throw an exception when processing this object",
+    "examples": [
+      "// Reading from queue using `for await` loop:\nlet queue = new EventQueue();\nsetTimeout(() => {\n    queue.send(0);\n    queue.send(1);\n    queue.send(2);\n    queue.raiseSignal(new Error('Processing failed'));\n    queue.send(3);\n    queue.shutdown();\n}, 15);\nlet results = [];\ntry {\n    for await (let data of queue) {\n        results.push(data);\n    }\n}\ncatch(err) {\n    // err.message is 'Processing failed'\n}\n// results contain [0, 1, 2]",
+      "// If for some reason one can't use `for await` loop then a similar loop can be implemented using `while`:\nlet queue = new EventQueue();\nsetTimeout(() => {\n    queue.send(0);\n    queue.send(1);\n    queue.send(2);\n    queue.raiseSignal(new Error('Processing failed'));\n    queue.send(3);\n    queue.shutdown();\n}, 15);\nlet results = [];\nlet data;\n// while loop checks whether queue was shutdown by comparing returned value\n// to a special data member of the queue object. It also checks for signals and throws errors\ntry {\n    while ((data = await queue.receive()) !== queue.end) {\n        if (queue.isSignal(res)) {\n            throw res.error;\n        }\n        results.push(data);\n    }\n}\nfinally {\n}\n// results contain [0, 1, 2, 3]"
+    ],
+    "lineNumber": 190,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Error"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "err",
+        "description": "an error to be thrown"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 71,
+    "kind": "method",
+    "name": "isSignal",
+    "memberof": "src/event-queue.js~EventQueue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#isSignal",
+    "access": "public",
+    "description": "Checks whether an object was created by raiseSginal method.",
+    "lineNumber": 201,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "signal",
+        "description": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "method",
+    "name": "[Symbol.asyncIterator]",
+    "memberof": "src/event-queue.js~EventQueue",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/event-queue.js~EventQueue#[Symbol.asyncIterator]",
+    "access": "public",
+    "description": "Support for `for-await-of loop`",
+    "lineNumber": 209,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# jseventqueue\r\n[![Travis build status badge](https://api.travis-ci.org/Kirusi/jseventqueue.svg?branch=master)](https://travis-ci.org/Kirusi/jseventqueue)\r\n[![Code coverage status badge](https://coveralls.io/repos/github/Kirusi/jseventqueue/badge.svg)](https://coveralls.io/github/Kirusi/jseventqueue)\r\n[![ESDoc coverage badge](https://doc.esdoc.org/github.com/Kirusi/jseventqueue/badge.svg)](https://doc.esdoc.org/github.com/Kirusi/jseventqueue/)\r\n[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0b9941f3eec74fc6815c4a6ecbae848d)](https://www.codacy.com/app/Kirusi/jseventqueue?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Kirusi/jseventqueue&amp;utm_campaign=Badge_Grade)\r\n\r\nA JavaScript (ES6) library for serializing event processing. It is intended to be used by multiple producers and a single consumer. Event processing is using ayns/await mechanism, which helps to process events one-at-a-time.\r\n\r\nReading from queue using `for await` loop:\r\n```js\r\nlet queue = new EventQueue();\r\nsetTimeout(() => {\r\n    queue.send(0);\r\n    queue.send(1);\r\n    queue.send(2);\r\n    queue.send(3);\r\n    queue.shutdown();\r\n}, 15);\r\nlet results = [];\r\nfor await (let data of queue) {\r\n    results.push(data);\r\n}\r\n// results contain [0, 1, 2, 3]\r\n```\r\nIf for some reason one can't use `for await` loop then a similar loop can be implemented using `while`:\r\n```js\r\nlet queue = new EventQueue();\r\nsetTimeout(() => {\r\n    queue.send(0);\r\n    queue.send(1);\r\n    queue.send(2);\r\n    queue.send(3);\r\n    queue.shutdown();\r\n}, 15);\r\nlet results = [];\r\nlet data;\r\n// while loop checks whether queue was shutdown by comparing returned value\r\n// to a special data member of the queue object\r\nwhile ((data = await queue.receive()) !== queue.end) {\r\n    results.push(data);\r\n}\r\n// results contain [0, 1, 2, 3]\r\n```\r\n\r\nAd-hoc reading and writing to the queue:\r\n```js\r\nlet queue = new EventQueue();\r\nsetTimeout(() => {\r\n    queue.send('message 1');\r\n    queue.send('message 2');\r\n}, 15);\r\n// receive will wait until a message is received\r\nlet msg1 = await queue.receive();\r\nlet msg2 = await queue.receive();\r\n```\r\n\r\n## Installation\r\n\r\nUsing npm:\r\n```shell\r\n$ npm i --save jseventqueue\r\n```\r\n",
+    "longname": "D:\\Personal\\Projects\\jseventqueue\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"jseventqueue\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"src/event-queue.js\",\n  \"files\": [\n    \"src/event-queue.js\"\n  ],\n  \"scripts\": {\n    \"esdoc\": \"esdoc -c ./esdoc.json\",\n    \"eslint-fix\": \"eslint --config=./config/eslint.config.json --fix src/**/*.js test/**/*.js\",\n    \"eslint-watch\": \"esw --config=./config/eslint.config.json -w --fix src/**/*.js test/**/*.js\",\n    \"test\": \"nyc --reporter=html --reporter=text --report-dir=./build/coverage --check-coverage --lines 100 --functions 100 --branches 100 mocha --reporter mocha-multi-reporters --reporter-options configFile=./config/mocha-reporters.json test/*.spec.js\",\n    \"test-watch\": \"mocha --reporter spec -w --recursive test/**/*.spec.js\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/Kirusi/jseventqueue.git\"\n  },\n  \"keywords\": [\n    \"event\",\n    \"queue\",\n    \"async\"\n  ],\n  \"author\": \"Kirusi Msafiri\",\n  \"license\": \"MIT\",\n  \"bugs\": {\n    \"url\": \"https://github.com/Kirusi/jseventqueue/issues\"\n  },\n  \"homepage\": \"https://github.com/Kirusi/jseventqueue#readme\",\n  \"devDependencies\": {\n    \"coveralls\": \"^3.0.3\",\n    \"esdoc\": \"^1.0.4\",\n    \"esdoc-node\": \"^1.0.2\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^5.16.0\",\n    \"eslint-watch\": \"^5.0.1\",\n    \"mocha\": \"^4.1.0\",\n    \"mocha-junit-reporter\": \"^1.18.0\",\n    \"mocha-lcov-reporter\": \"^1.3.0\",\n    \"mocha-multi-reporters\": \"^1.1.7\",\n    \"nyc\": \"^13.3.0\",\n    \"should\": \"^13.1.3\"\n  },\n  \"dependencies\": {}\n}\n",
+    "longname": "D:\\Personal\\Projects\\jseventqueue\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

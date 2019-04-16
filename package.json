@@ -20,7 +20,9 @@
   "keywords": [
     "event",
     "queue",
-    "async"
+    "async",
+    "for-await-of",
+    "await"
   ],
   "author": "Kirusi Msafiri",
   "license": "MIT",

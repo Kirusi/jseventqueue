@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/event-queue.js | jseventqueue Library</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Async event queue"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="jseventqueue Library"><meta property="twitter:description" content="Async event queue"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/Kirusi/jseventqueue"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/event-queue.js~EventQueue.html">EventQueue</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/event-queue.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">&apos;use strict&apos;;
+
+/**
+ * A wrapper class. It is used to raise errors and signal interruptions to normal iteration flow.
+ */
+class Signal {
+    /**
+     * Constructor
+     * @param {Error} err - an error to be trhown during iteration
+     */
+    constructor(err) {
+        /** an error object to be held */
+        this.err = err;
+    }
+
+    /**
+     * Accessor to wrapped Error instance
+     */
+    get error() {
+        return this.err;
+    }
+}
+
+/**
+ *  Class implements JS asyncIterator protocol to be used in `for-await-of loop`
+ */
+class Iterator {
+    /**
+     * Constructor
+     * @param {EventQueue} queue
+     */
+    constructor(queue) {
+        /** Reference to queue object */
+        this.queue = queue;
+    }
+
+    /**
+     * returns the result with two optional data members: `value` must be returned if there is more data expected.
+     * `done` must be set to true when iteration is finished, in this case `value` is ignored
+     */
+    async next() {
+        let data = await this.queue.receive();
+        if (this.queue.isSignal(data)) {
+            throw data.error;
+        }
+        let result = {
+            value: data,
+            done: (data === this.queue.end)
+        };
+        return result;
+    }
+
+    /**
+     * Support for `for-await-of loop` using iterator object
+     */
+    [Symbol.asyncIterator]() {
+        return this.queue[Symbol.asyncIterator]();
+    }
+}
+
+/**
+ * Event queue with support for `async-await` reading by a single consumer
+ */
+class EventQueue {
+
+    /**
+     * Default constructor
+     */
+    constructor() {
+        /** @private array of messages */
+        this.queue = [];
+        /** @private flag whether the queue is closed */
+        this.isDown = false;
+        /** @private special object used to mark the last message */
+        this.endMarker = {id: &apos;Queue is terminated&apos;}; // special object
+    }
+
+    /**
+     * Getter for the end marker. This object is sent when queue is shutdown
+     */
+    get end() {
+        return this.endMarker;
+    }
+
+    /**
+     * Async method that can be waited on to receive the next message.
+     * At most one consumer at a time is expected to be waiting.
+     * The method throws an exception after queue was shut down and all pendingmessages were delivered.
+     */
+    async receive() {
+        if (this.queue.length &gt; 0) {
+            let val = this.queue.shift();
+            return Promise.resolve(val);
+        }
+        if (this.resolver) {
+            throw new Error(&apos;Another block of code is already waiting to receive data from this queue.&apos;);
+        }
+        if (this.isDown) {
+            throw new Error(&apos;Can\&apos;t read from queue. The queue was shutdown.&apos;);
+        }
+        return new Promise((resolver) =&gt; {
+            /**
+             * @private callback to use when the next value is received.
+             */
+            this.resolver = resolver;
+        });
+    }
+
+    /**
+     * Sends a message to a waiting consumer, or stores it in-memory to be delivered later.
+     * Once the queue is shut down, no more messages are accepted for delivery.
+     * Pending messages will be delivered to a consumer.
+     * @param {*} val - value to be delivered
+     */
+    send(val) {
+        if (!this.isDown) {
+            if (this.resolver) {
+                this.resolver(val);
+                this.resolver = undefined;
+            }
+            else {
+                this.queue.push(val);
+            }
+        }
+        else {
+            throw new Error(&apos;Can\&apos;t send a message. The queue was shutdown.&apos;);
+        }
+    }
+
+    /**
+     * Closes queue from accepting more messages for delivery
+     */
+    shutdown() {
+        this.send(this.endMarker);
+        this.isDown = true;
+    }
+
+    /**
+     * Send a message containing an Error object. Iterator will throw an exception when processing this object
+     * @param {Error} err - an error to be thrown
+     *
+     * @example
+     * // Reading from queue using `for await` loop:
+     * let queue = new EventQueue();
+     * setTimeout(() =&gt; {
+     *     queue.send(0);
+     *     queue.send(1);
+     *     queue.send(2);
+     *     queue.raiseSignal(new Error(&apos;Processing failed&apos;));
+     *     queue.send(3);
+     *     queue.shutdown();
+     * }, 15);
+     * let results = [];
+     * try {
+     *     for await (let data of queue) {
+     *         results.push(data);
+     *     }
+     * }
+     * catch(err) {
+     *     // err.message is &apos;Processing failed&apos;
+     * }
+     * // results contain [0, 1, 2]
+     * @example
+     * // If for some reason one can&apos;t use `for await` loop then a similar loop can be implemented using `while`:
+     * let queue = new EventQueue();
+     * setTimeout(() =&gt; {
+     *     queue.send(0);
+     *     queue.send(1);
+     *     queue.send(2);
+     *     queue.raiseSignal(new Error(&apos;Processing failed&apos;));
+     *     queue.send(3);
+     *     queue.shutdown();
+     * }, 15);
+     * let results = [];
+     * let data;
+     * // while loop checks whether queue was shutdown by comparing returned value
+     * // to a special data member of the queue object. It also checks for signals and throws errors
+     * try {
+     *     while ((data = await queue.receive()) !== queue.end) {
+     *         if (queue.isSignal(res)) {
+     *             throw res.error;
+     *         }
+     *         results.push(data);
+     *     }
+     * }
+     * finally {
+     * }
+     * // results contain [0, 1, 2, 3]
+     */
+    raiseSignal(err) {
+        if (!(err instanceof Error)) {
+            throw new Error(&apos;Signal can be raised only by using instances of an Error class&apos;);
+        }
+        this.send(new Signal(err));
+    }
+
+    /**
+     * Checks whether an object was created by raiseSginal method.
+     * @param {*} signal
+     */
+    isSignal(signal) {
+        let result = (signal instanceof Signal);
+        return result;
+    }
+
+    /**
+     * Support for `for-await-of loop`
+     */
+    [Symbol.asyncIterator]() {
+        return new Iterator(this);
+    }
+}
+
+module.exports = EventQueue;
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
