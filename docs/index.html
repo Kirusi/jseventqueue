@@ -39,8 +39,10 @@
 <a href="https://doc.esdoc.org/github.com/Kirusi/jseventqueue/"><img src="https://doc.esdoc.org/github.com/Kirusi/jseventqueue/badge.svg" alt="ESDoc coverage badge"></a>
 <a href="https://www.codacy.com/app/Kirusi/jseventqueue?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Kirusi/jseventqueue&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/0b9941f3eec74fc6815c4a6ecbae848d" alt="Codacy Badge"></a></p>
 <p>A JavaScript (ES6) library for serializing event processing. It is intended to be used by multiple producers and a single consumer. Event processing is using ayns/await mechanism, which helps to process events one-at-a-time.</p>
+<p><a href="https://kirusi.github.io/jseventqueue/">API reference</a></p>
 <p>Reading from queue using <code>for await</code> loop:</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">let queue = new EventQueue();
+<pre><code class="lang-js"><code class="source-code prettyprint">const EventQueue = require(&apos;jseventqueue&apos;);
+let queue = new EventQueue();
 setTimeout(() =&gt; {
     queue.send(0);
     queue.send(1);
@@ -55,7 +57,8 @@ for await (let data of queue) {
 // results contain [0, 1, 2, 3]</code>
 </code></pre>
 <p>If for some reason one can&apos;t use <code>for await</code> loop then a similar loop can be implemented using <code>while</code>:</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">let queue = new EventQueue();
+<pre><code class="lang-js"><code class="source-code prettyprint">const EventQueue = require(&apos;jseventqueue&apos;);
+let queue = new EventQueue();
 setTimeout(() =&gt; {
     queue.send(0);
     queue.send(1);
@@ -73,7 +76,8 @@ while ((data = await queue.receive()) !== queue.end) {
 // results contain [0, 1, 2, 3]</code>
 </code></pre>
 <p>Ad-hoc reading and writing to the queue:</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">let queue = new EventQueue();
+<pre><code class="lang-js"><code class="source-code prettyprint">const EventQueue = require(&apos;jseventqueue&apos;);
+let queue = new EventQueue();
 setTimeout(() =&gt; {
     queue.send(&apos;message 1&apos;);
     queue.send(&apos;message 2&apos;);

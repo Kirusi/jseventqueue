@@ -6,7 +6,7 @@
 
 A JavaScript (ES6) library for serializing event processing. It is intended to be used by multiple producers and a single consumer. Event processing is using ayns/await mechanism, which helps to process events one-at-a-time.
 
-[API reference](https://doc.esdoc.org/github.com/Kirusi/jseventqueue/)
+[API reference](https://kirusi.github.io/jseventqueue/)
 
 Reading from queue using `for await` loop:
 ```js
