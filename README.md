@@ -1,4 +1,8 @@
 # jseventqueue
+[![Travis build status badge](https://api.travis-ci.org/Kirusi/jseventqueue.svg?branch=master)](https://travis-ci.org/Kirusi/jseventqueue)
+[![Code coverage status badge](https://coveralls.io/repos/github/Kirusi/jseventqueue/badge.svg)](https://coveralls.io/github/Kirusi/jseventqueue)
+[![ESDoc coverage badge](https://doc.esdoc.org/github.com/Kirusi/jseventqueue/badge.svg)](https://doc.esdoc.org/github.com/Kirusi/jseventqueue/)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0b9941f3eec74fc6815c4a6ecbae848d)](https://www.codacy.com/app/Kirusi/jseventqueue?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Kirusi/jseventqueue&amp;utm_campaign=Badge_Grade)
 
 A JavaScript (ES6) library for serializing event processing. It is intended to be used by multiple producers and a single consumer. Event processing is using ayns/await mechanism, which helps to process events one-at-a-time.
 
