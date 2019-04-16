@@ -8,6 +8,7 @@ A JavaScript (ES6) library for serializing event processing. It is intended to b
 
 [API reference](https://kirusi.github.io/jseventqueue/)
 
+## Example
 Reading from queue using `for await` loop:
 ```js
 const EventQueue = require('jseventqueue');
